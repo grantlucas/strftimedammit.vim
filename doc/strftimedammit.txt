@@ -6,6 +6,7 @@ CONTENTS                                             *strftimedammit-contents*
     1. Django .......................... |strftime-django|
     2. Python .......................... |strftime-python|
     3. Ruby   .......................... |strftime-ruby|
+    3. PHP    .......................... |strftime-php|
 
 ==============================================================================
 1. Django                        *strftime-django* *django-date* *django-time*
@@ -188,3 +189,38 @@ Others >
     %s  Seconds since 1970-01-01 00:00:00 UTC (the Epoch)           1299616963
     %%  A literal '%' character                                              %
 
+==============================================================================
+3. PHP                                                          *strftime-php*
+
+Times >
+    g  12-hour format without leading zeros                            1 to 12
+    G  24-hour format without leading zeros                            0 to 23
+
+    h  12-hour format with leading zeros                              01 to 12
+    H  24-hour format with leading zeros                              00 to 23
+    
+    i  Minutes with leading zeros                                     00 to 59
+    s  Seconds with leading zeros                                     00 to 59
+    u  Microseconds                                                     654321
+
+    a  Lowecase Ante meridiem and Post meridiem                       am or pm
+    A  Uppercase Ante meridiem and Post meridiem                      AM or PM
+    
+    B  Swatch Internet time                                         000 to 999
+    
+Days >
+    d  Day of the month with leading zeros                            01 to 31
+    j  Day of the month without leading zeros                          1 to 31
+
+    D  Three day textual representation of the day                  Mon to Sun
+    l  Full textual representation of the day               Sunday to Saturday
+
+    w  Numeric representation of the day of the week            0(Sunday) to 6
+    N  ISO-8601 numeric representation                          1(Monday) to 7 
+       of the day of the week
+
+    S  English ordinal suffix for the day of the month        st, nd, rd or th
+    z  The day of the year                                            0 to 365
+
+Months >
+    
