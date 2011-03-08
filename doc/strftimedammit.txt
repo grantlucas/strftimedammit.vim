@@ -193,34 +193,29 @@ Others >
 3. PHP                                                          *strftime-php*
 
 Times >
-    g  12-hour format without leading zeros                            1 to 12
-    G  24-hour format without leading zeros                            0 to 23
+    %l  12-hour format without leading zeros                           1 to 12
 
-    h  12-hour format with leading zeros                              01 to 12
-    H  24-hour format with leading zeros                              00 to 23
+    %I  12-hour format with leading zeros                             01 to 12
+    %H  24-hour format with leading zeros                             00 to 23
     
-    i  Minutes with leading zeros                                     00 to 59
-    s  Seconds with leading zeros                                     00 to 59
-    u  Microseconds                                                     654321
+    %M  Minutes with leading zeros                                    00 to 59
+    %S  Seconds with leading zeros                                    00 to 59
 
-    a  Lowecase Ante meridiem and Post meridiem                       am or pm
-    A  Uppercase Ante meridiem and Post meridiem                      AM or PM
-    
-    B  Swatch Internet time                                         000 to 999
+    %P  Lowecase Ante meridiem and Post meridiem                      am or pm
+    %p  Uppercase Ante meridiem and Post meridiem                     AM or PM
     
 Days >
-    d  Day of the month with leading zeros                            01 to 31
-    j  Day of the month without leading zeros                          1 to 31
+    %d  Day of the month with leading zeros                           01 to 31
+    %e  Day of the month without leading zeros                         1 to 31
 
-    D  Three day textual representation of the day                  Mon to Sun
-    l  Full textual representation of the day               Sunday to Saturday
+    %a  Three day textual representation of the day                 Mon to Sun
+    %A  Full textual representation of the day              Sunday to Saturday
 
-    w  Numeric representation of the day of the week            0(Sunday) to 6
-    N  ISO-8601 numeric representation                          1(Monday) to 7 
-       of the day of the week
+    %w  Numeric representation of the day of the week           0(Sunday) to 6
+    %u  ISO-8601 numeric representation                         1(Monday) to 7 
+        of the day of the week
 
-    S  English ordinal suffix for the day of the month        st, nd, rd or th
-    z  The day of the year                                            0 to 365
+    %j  The day of the year                                         001 to 366
 
 Months >
     
